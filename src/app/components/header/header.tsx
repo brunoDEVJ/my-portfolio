@@ -3,9 +3,11 @@ import './header.scss'
 
 export function Header() {
   return (
-    <header className="header">
-      <h1>Oi, eu sou Bruno! 🌎</h1>
-      <h2>Software Engineer</h2>
+    <div className="header">
+      <div>
+        <h1>Oi, eu sou Bruno! 👋</h1>
+        <h2>Software Engineer</h2>
+      </div>
       <Image
         src="/vercel.svg"
         alt="Vercel Logo"
@@ -13,6 +15,6 @@ export function Header() {
         height={310}
         priority
       />
-    </header>
+    </div>
   )
 }
