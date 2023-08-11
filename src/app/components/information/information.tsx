@@ -6,12 +6,12 @@ export function Info() {
     <div className="information">
       <SectionTitle text='Languages' />
       <div className="languages-info"></div>
-      <span>(🇺🇸) EN - Intermediary</span>
-      <span>(🇧🇷) PT-BR - Nativo</span>
+      <span>EN - Intermediary</span>
+      <span>PT-BR - Nativo</span>
       <SectionTitle text='Education' />
       <div className="education-info">
-        <span>(icon)</span>
-        <span>TODO:</span>
+        <span>Udemy curso Cod3r</span><br />
+        <span>Rocktseat curso Explorer</span>
       </div>
     </div>
   )

@@ -10,9 +10,9 @@ export function Experience() {
       <SectionTitle text="Experience" />
       <p>4 years working as a Software Suport, in companys such as VLT, APPcontrol and VDG.</p>
       <div className="experience-time">
-        <Skill image="./react.png" measure={2} years="TODO:" />
-        <Skill image="./ts.png" measure={3} years="TODO:" />
-        <Skill image="./js.png" measure={3} years="TODO:" />
+        <Skill image="./react.png" measure={2} years="1 Years" />
+        <Skill image="./ts.png" measure={1} years="4 Months" />
+        <Skill image="./js.png" measure={3} years="2 Years:" />
       </div>
     </div>
   )
