@@ -1,5 +1,5 @@
 .container {
-  padding: 40px 32px;
+  padding: 20px 10px;
   display: grid;
   gap: 24px;
   justify-items: center;
@@ -40,14 +40,15 @@
           justify-content: center;
       }
   }
+  .cnt {
+    display: flex;
+    height: 100vh;
+    padding: 0 5%;
+    flex-wrap: wrap;
+    gap: 0 40%;
+    }
 }
-.cnt {
-  height: 120%;
-  display: flex;
-  padding: 70px 10px;
-  flex-wrap: wrap;
-  gap: 30px 0px;
-  }
+
 
 @media (min-width: 768px){
   .container {
@@ -61,13 +62,13 @@
       grid-template-areas: 
       "header info"
       "experience btns";
+
+      .cnt {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;        
+        }
   }
 
-  .cnt {
-    height: 120%;
-    display: flex;
-    padding: 70px 10px;
-    flex-wrap: wrap;
-    gap: 30px 0px;
-    }
+ 
 }

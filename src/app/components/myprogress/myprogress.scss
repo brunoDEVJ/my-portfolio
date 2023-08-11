@@ -1,32 +1,17 @@
-.anc{
-  text-decoration: none;
-  width:13vw;
-  p {
-    opacity: 0;
-  }
-  
-  }
-  @media (min-width: 768px){}
+
+
+@media (min-width: 768px){}
 
   .nlw {
     background: linear-gradient(90deg, #77ddf4 2.62%, #8053f3 93.38%);
     border-radius: 50%;
-    font-size: 26px;
     height: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     transition: transform 1s;
-
-    p {
-      color: var(--text-primary);
-      font-size: 0.5em;
-    }
+    margin: 0 -10px;
   }
   
   .nlw:hover {
-    
     transform: scale(1.5);
-  
- 
   }
+
